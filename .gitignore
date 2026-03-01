@@ -1,0 +1,32 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+server/.venv/
+
+# Database files
+*.db
+*.sqlite3
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python extensions
+*.so
+*.pyd
+
+# Ignore pyenv and pipenv files (optional)
+.python-version
+Pipfile.lock
+
+# Ignore any environment files
+.env
